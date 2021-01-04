@@ -28,4 +28,8 @@ function roll_damage_roll(n,m)
 	damage
 end
 
+# Discord stuff to be put here.
+
+using Discord
+
 end # module

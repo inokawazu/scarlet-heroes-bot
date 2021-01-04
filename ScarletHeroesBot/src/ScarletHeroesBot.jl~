@@ -22,7 +22,7 @@ function roll_damage_roll(n,m)
 	damage = 0
 	
 	for die in 1:n
-		damage += Random.rand(1:m)
+		damage += convert_die_to_damage(Random.rand(1:m))
 	end
 
 	damage
